@@ -1,0 +1,212 @@
+html {
+  box-sizing: border-box;
+  background: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.site-wrap {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 40px;
+  text-align: justify;
+  transform: scale(0.98);
+  transition: transform 0.5s;
+}
+
+.col-one-third, .col-half {
+	width: 100%;
+	float: none;
+}
+
+@media screen and (min-width: 960px) {
+	.col-one-third {
+		width: 33.3333%;
+		float: left;
+	}
+	.col-half {
+		width: 50%;
+		float: left;
+	}
+}
+
+body.fixed-nav .site-wrap {
+  transform: scale(1);
+}
+
+section {
+	clear: both;
+	padding: 90px 0;
+	overflow: auto;
+}
+
+header {
+  text-align: center;
+  height: 50vh;
+  background: url("./images/lorry.jpg") bottom center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: 4vw;
+  text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
+}
+
+nav {
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  top: 0;
+  width: 100%;
+  transition: all 0.5s;
+  position: relative;
+  z-index: 1;
+}
+
+body.fixed-nav nav {
+  position: fixed;
+  box-shadow: 0 5px 0 rgba(0,0,0,0.1);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li:hover {
+  font-weight: bold;
+}
+
+li.logo {
+  max-width: 0;
+  overflow: hidden;
+  background: white;
+  transition: all 1s;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+li.logo a {
+  color: #e9894d;
+}
+
+.fixed-nav li.logo {
+  max-width: 500px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  color: white;
+  transition: all 0.2s;
+  text-transform: uppercase;
+}
+
+.about-us {
+  text-align: center;
+}
+
+.services h3 {
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.services p {
+  margin: 50px 20px 70px 0;
+  line-height: 36px;
+  padding: 10px;
+}
+
+.services i {
+	font-size: 48px;
+  color: #e9894d;
+  margin-bottom: 20px;
+}
+
+.about {
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+	color: white;
+	text-transform: uppercase;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about span {
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.content {
+  margin: 50px 0 70px 0;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #e9894d;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.contact span i {
+	color: #e9894d;
+	font-size: 18px;
+	margin: 0 20px 20px 0;
+}
+
+.contact iframe {
+  margin-top: 30px;
+}
+
+.site-footer {
+	color: #ffffff;
+	padding: 16px;
+	text-align: center;
+	background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+footer a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #fff;
+}
+
+.to-top {
+	position: fixed;
+	bottom: 80px;
+	right: 50px;
+	background: #e9894d;
+	color: #ffffff;
+	padding: 9px 12px;
+	border-radius: 50%;
+}
+
+.to-top:hover {
+	background: #eee;
+	color: #000000;
+}
