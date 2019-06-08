@@ -144,6 +144,7 @@ nav a {
 	font-size: 48px;
   color: #e9894d;
   margin-bottom: 20px;
+  text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
 }
 
 .about {
@@ -156,6 +157,7 @@ nav a {
   font-size: 50px;
   text-align: center;
   margin-bottom: 70px;
+  text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
 }
 
 .about span {
@@ -176,6 +178,7 @@ hr {
   color: #e9894d;
   text-transform: uppercase;
   margin-bottom: 50px;
+  text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
 }
 
 .contact span i {
@@ -185,7 +188,7 @@ hr {
 }
 
 .contact iframe {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .site-footer {
