@@ -18,7 +18,7 @@ body {
 .site-wrap {
   max-width: 1200px;
   margin: 20px auto;
-  padding: 40px;
+  padding: 20px;
   text-align: justify;
   transform: scale(0.98);
   transition: transform 0.5s;
