@@ -97,6 +97,8 @@ nav li {
 
 nav li:hover {
   font-weight: bold;
+  transform: scale(1.2);
+  transition: transform 0.5s;
 }
 
 li.logo {
