@@ -11,7 +11,4 @@ function fixNav() {
     }
 }
 
-const toggler = document.querySelector('#toggler');
-console.log(topOfNav);
-
 window.addEventListener('scroll', fixNav);
