@@ -209,14 +209,19 @@ footer a {
 .to-top {
 	position: fixed;
 	bottom: 80px;
-	right: 50px;
+  right: 50px;
 	background: #e9894d;
 	color: #ffffff;
 	padding: 9px 12px;
-	border-radius: 50%;
+  border-radius: 50%;
+  display: none;
 }
 
 .to-top:hover {
 	background: #eee;
 	color: #000000;
+}
+
+.to-top-show {
+  display: block;
 }

@@ -1,3 +1,4 @@
+// Nav animation
 const nav = document.querySelector('#main');
 let topOfNav = nav.offsetTop;
 
@@ -13,6 +14,7 @@ function fixNav() {
 
 window.addEventListener('scroll', fixNav);
 
+// To-top button
 (function() {
     'use strict';
   
@@ -21,10 +23,10 @@ window.addEventListener('scroll', fixNav);
       var coords = document.documentElement.clientHeight;
   
       if (scrolled > coords) {
-        goTopBtn.classList.add('to-top');
+        goTopBtn.classList.add('to-top-show');
       }
       if (scrolled < coords) {
-        goTopBtn.classList.remove('to-top');
+        goTopBtn.classList.remove('to-top-show');
       }
     }
   
