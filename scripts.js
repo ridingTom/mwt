@@ -16,11 +16,10 @@ window.addEventListener('scroll', fixNav);
 
 // To-top button
 (function() {
-    'use strict';
   
     function trackScroll() {
-      var scrolled = window.pageYOffset;
-      var coords = document.documentElement.clientHeight;
+      let scrolled = window.pageYOffset;
+      const coords = document.documentElement.clientHeight;
   
       if (scrolled > coords) {
         goTopBtn.classList.add('to-top-show');
