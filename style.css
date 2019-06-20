@@ -158,8 +158,13 @@ nav a {
 .about h2 {
   font-size: 50px;
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
   text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
+}
+
+.about h4 {
+  text-align: center;
+  margin-bottom: 70px;
 }
 
 .about span {
