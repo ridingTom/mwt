@@ -40,4 +40,10 @@ window.addEventListener('scroll', fixNav);
   
     window.addEventListener('scroll', trackScroll);
     goTopBtn.addEventListener('click', backToTop);
+
+    $(document).ready(function(){
+      $('.count').countTo();
+  
+   });
   })();
+
