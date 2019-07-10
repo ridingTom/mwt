@@ -43,7 +43,7 @@ window.addEventListener('scroll', fixNav);
 
     $(document).ready(function(){
       $('.count').countTo();
-  
    });
+   
   })();
 
