@@ -1,2 +1,21 @@
-# mwt.com.pl
-A landing page made with vanilla JS and one jQuery script. It's got a sticky nav that slides a logo in, a little content animation on page load and a tiny navigation button on the right-hand side that shows up on page scroll.
+#mwt.com.pl
+
+A responsive landing page built for a transport company.
+
+##Technologies used and concepts covered
+
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* Fontawesome
+
+##User Stories
+
+* As a User, I should be able to open the page on every device.
+
+##How to Get Started
+
+* Fork this repo.
+* Clone your new repo.
+
