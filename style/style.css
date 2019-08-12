@@ -206,10 +206,11 @@ hr {
 }
 
 .site-footer {
-  color: #404040;
+  color: #ffffff;
+  font-size: 16px;
 	padding: 16px;
 	text-align: center;
-	background: #F2F2F2;
+	background: #404040;
 }
 
 footer a {
