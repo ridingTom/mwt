@@ -20,6 +20,7 @@
       <li><a href="#">Home</a></li>
       <li><a href="#services">Usługi</a></li>
       <li><a href="#about">O nas</a></li>
+      <li><a href="#calculator">Kalkulator</a></li>
       <li><a href="#contact">Kontakt</a></li>
     </ul>
   </nav>
@@ -70,11 +71,43 @@
       </div>
     </div>
   </section>
+
+  <a name="calculator"></a>  
+  <section class="calc">
+    <div class="site-wrap">
+      <h2>KALKULATOR TRANSPORTOWY</h2>
+      <hr>
+      <div class="col-half">
+        <p>
+          <form>
+              <b>Długość trasy:</b><br>
+              <input type="number" id="calc" name="kilometers" placeholder="Kilometry">
+              <br>
+              <b>Średnia prędkość:</b><br>
+              <!-- <input type="radio" id="PL" value="60">Polska</input>
+              <input type="radio" id="EU" value="70">Europa Zachodnia</input> -->
+                <select>
+                  <option value=60 id="PL">Polska</option>
+                  <option value=70 id="EU">Europa Zachodnia</option>
+                </select>
+            </form>
+        </p>
+        <button onclick="calc()">Oblicz</button>
+      </div>
+      <div class="col-half">
+      <p>
+        <b>Czas przejazdu: </b><span id="time"></span>
+      </p>
+      <p>* Podany czas przejazdu jest orientacyjny. Należy doliczyć pauzy kierowców i czynniki zewnętrzne, np. stan dróg, warunki na trasie, czas załadunku itp. W razie pytań zapraszamy do kontaktu.</p>
+      </div>
+    </div>
+  </section>
     
   <a name="contact"></a>
   <section class="contact">
     <div class="site-wrap">
       <h2>Kontakt</h2>
+      <hr>
       <div class="col-half">
           <p><span><i class="fas fa-warehouse"></i></span> ul. Zientary-Malewskiej 65, 10-310 Olsztyn</p>
           <p><span><i class="fas fa-envelope-open"></i></span> marcin@mwt.com.pl</p>
@@ -90,7 +123,7 @@
 
   <footer class="site-footer">
     <div class="container">
-        <p>Projekt i realizacja: Statkowski 2019</p>
+        <p>Projekt i realizacja: Tom Statkowski 2019</p>
     </div>
   </footer>
   <a href="#top" class="to-top"><i class="fas fa-angle-double-up"></i></a>

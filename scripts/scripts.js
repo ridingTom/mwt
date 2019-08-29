@@ -1,4 +1,4 @@
-// Nav animation
+// Navbar animation
 const nav = document.querySelector('#main');
 let topOfNav = nav.offsetTop;
 
@@ -47,3 +47,21 @@ window.addEventListener('scroll', fixNav);
    
   })();
 
+  // Calculator
+  function calc() {
+    let kilometers = document.querySelector('#calc').value;
+    console.log(kilometers);
+    
+    let PL = document.querySelector('#PL').onchange =
+    `${Math.round(kilometers / 60)}h`;
+    console.log(PL);
+
+    let EU = document.querySelector('#EU').onchange =
+    `${Math.round(kilometers / 70)}h`;
+    console.log(EU);
+
+    document.querySelector('#time').innerHTML = PL;
+    document.querySelector('#time').innerHTML = EU;
+  }
+
+  

@@ -183,19 +183,42 @@ nav a {
   text-align: center;
 }
 
-hr {
-  color: white;
-}
-
-.contact h2 {
+.calc h2 {
   color: #e9894d;
   text-transform: uppercase;
   margin-bottom: 50px;
   text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
 }
 
+.calc input {
+  margin-bottom: 20px;
+}
+
+.calc button {
+  background: #e9894d;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+hr {
+  color: white;
+}
+
+.contact {
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  color: white;
+}
+
+.contact h2 {
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
+}
+
 .contact span i {
-	color: #e9894d;
+	color: white;
 	font-size: 18px;
 	margin: 0 20px 20px 0;
 }
