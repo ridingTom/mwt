@@ -8,7 +8,7 @@ A responsive landing page built for a transport company.
 * CSS
 * JavaScript
 * jQuery
-* Fontawesome
+* Font Awesome
 
 ##How to Get Started
 
