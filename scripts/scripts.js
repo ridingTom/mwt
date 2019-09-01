@@ -53,7 +53,7 @@ window.addEventListener('scroll', fixNav);
     let kilometers = document.querySelector('#calc').value;
     console.log(kilometers);
 
-    let PL = document.querySelector('#PL').onclick = `${Math.round(kilometers / 60)}h`;
+    let PL = document.querySelector('#PL').onclick = `${(kilometers / 60).toFixed(1)}h`;
 
     document.querySelector('#time').innerHTML = PL;
   }
@@ -63,7 +63,7 @@ window.addEventListener('scroll', fixNav);
     let kilometers = document.querySelector('#calc').value;
     console.log(kilometers);
 
-    let EU = document.querySelector('#EU').onclick = `${Math.round(kilometers / 70)}h`;
+    let EU = document.querySelector('#EU').onclick = `${(kilometers / 70).toFixed(1)}h`;
 
     document.querySelector('#time').innerHTML = EU;
   }
