@@ -80,19 +80,13 @@
       <div class="col-half">
         <p>
           <form>
-              <b>Długość trasy:</b><br>
-              <input type="number" id="calc" name="kilometers" placeholder="Kilometry">
-              <br>
-              <b>Średnia prędkość:</b><br>
-              <!-- <input type="radio" id="PL" value="60">Polska</input>
-              <input type="radio" id="EU" value="70">Europa Zachodnia</input> -->
-                <select>
-                  <option value=60 id="PL">Polska</option>
-                  <option value=70 id="EU">Europa Zachodnia</option>
-                </select>
-            </form>
+            <b>Długość trasy:</b><br>
+            <input type="number" id="calc" name="kilometers" placeholder="Kilometry">
+            <br>
+            <button id="PL" onclick="PLtime()">Polska</button>
+            <button id="EU" onclick="EUtime()">Europa Zachodnia</button>
+          </form>
         </p>
-        <button onclick="calc()">Oblicz</button>
       </div>
       <div class="col-half">
       <p>

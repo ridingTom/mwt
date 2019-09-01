@@ -48,20 +48,27 @@ window.addEventListener('scroll', fixNav);
   })();
 
   // Calculator
-  function calc() {
+  function PLtime() {
+
     let kilometers = document.querySelector('#calc').value;
     console.log(kilometers);
-    
-    let PL = document.querySelector('#PL').onchange =
-    `${Math.round(kilometers / 60)}h`;
-    console.log(PL);
 
-    let EU = document.querySelector('#EU').onchange =
-    `${Math.round(kilometers / 70)}h`;
-    console.log(EU);
+    let PL = document.querySelector('#PL').onclick = `${Math.round(kilometers / 60)}h`;
 
     document.querySelector('#time').innerHTML = PL;
-    // document.querySelector('#time').innerHTML = EU;
   }
+    
+  function EUtime() {
+
+    let kilometers = document.querySelector('#calc').value;
+    console.log(kilometers);
+
+    let EU = document.querySelector('#EU').onclick = `${Math.round(kilometers / 70)}h`;
+
+    document.querySelector('#time').innerHTML = EU;
+  }
+  
+  
+    
 
   
