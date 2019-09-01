@@ -61,7 +61,7 @@ window.addEventListener('scroll', fixNav);
     console.log(EU);
 
     document.querySelector('#time').innerHTML = PL;
-    document.querySelector('#time').innerHTML = EU;
+    // document.querySelector('#time').innerHTML = EU;
   }
 
   
