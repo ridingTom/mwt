@@ -184,6 +184,8 @@ nav a {
 }
 
 .calc h2 {
+  font-size: 50px;
+  text-align: center;
   color: #e9894d;
   text-transform: uppercase;
   margin-bottom: 50px;
@@ -211,6 +213,8 @@ hr {
 }
 
 .contact h2 {
+  font-size: 50px;
+  text-align: center;
   color: white;
   text-transform: uppercase;
   margin-bottom: 50px;
