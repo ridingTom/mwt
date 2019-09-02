@@ -47,7 +47,7 @@ body.fixed-nav .site-wrap {
 
 section {
 	clear: both;
-	padding: 90px 0;
+	padding: 60px 0;
 	overflow: auto;
 }
 
@@ -137,6 +137,13 @@ nav a {
   color: #ffffff;
 }
 
+.services h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+  text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
+}
+
 .services h3 {
   color: #ffffff;
   text-transform: uppercase;
@@ -144,7 +151,7 @@ nav a {
 }
 
 .services p {
-  margin: 50px 20px 70px 0;
+  margin: 20px 20px 70px 0;
   line-height: 36px;
   padding: 10px;
 }
@@ -152,7 +159,7 @@ nav a {
 .services i {
 	font-size: 60px;
   color: #ffffff;
-  margin-bottom: 20px;
+  margin: 50px 0 20px 0;
   text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
 }
 
@@ -201,6 +208,10 @@ nav a {
   text-transform: uppercase;
   margin-bottom: 50px;
   text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
+}
+
+.calc p {
+  margin-top: 50px;
 }
 
 .calc input {
