@@ -16,6 +16,7 @@ window.addEventListener('scroll', fixNav);
 
 // To-top button
 (function() {
+    'use strict';
   
     function trackScroll() {
       let scrolled = window.pageYOffset;
