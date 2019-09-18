@@ -49,8 +49,9 @@ window.addEventListener('scroll', fixNav);
   })();
 
   // Calculator
-  function PLtime() {
-
+  function PLtime(event) {
+      event.preventDefault();
+    
     let kilometers = document.querySelector('#calc').value;
     console.log(kilometers);
 
@@ -59,8 +60,9 @@ window.addEventListener('scroll', fixNav);
     document.querySelector('#time').innerHTML = PL;
   }
     
-  function EUtime() {
-
+  function EUtime(event) {
+      event.preventDefault();
+      
     let kilometers = document.querySelector('#calc').value;
     console.log(kilometers);
 
