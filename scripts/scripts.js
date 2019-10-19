@@ -48,29 +48,30 @@ window.addEventListener('scroll', fixNav);
    
   })();
 
+
   // Calculator
-  function PLtime(event) {
-      event.preventDefault();
-    
-    let kilometers = document.querySelector('#calc').value;
-    console.log(kilometers);
+  jQuery( document ).ready(function($) {
+    $( '#PL' ).on( 'click', function(e){
+      e.preventDefault();
+      let kilometers = document.querySelector('#calc').value;
+      if( $( '#PL' ) ){
+        let PL = document.querySelector('#PL').onclick = `${(kilometers / 60).toFixed(1)}h`;
+        document.querySelector('#time').innerHTML = PL;
+      }
+    });
+  });
 
-    let PL = document.querySelector('#PL').onclick = `${(kilometers / 60).toFixed(1)}h`;
+  jQuery( document ).ready(function($) {
+    $( '#EU' ).on( 'click', function(e){
+      e.preventDefault();
+      let kilometers = document.querySelector('#calc').value;
+      if( $( '#EU' ) ){
+        let EU = document.querySelector('#EU').onclick = `${(kilometers / 70).toFixed(1)}h`;
+        document.querySelector('#time').innerHTML = EU;
+      }
+    });
+  });
 
-    document.querySelector('#time').innerHTML = PL;
-  }
-    
-  function EUtime(event) {
-      event.preventDefault();
-      
-    let kilometers = document.querySelector('#calc').value;
-    console.log(kilometers);
-
-    let EU = document.querySelector('#EU').onclick = `${(kilometers / 70).toFixed(1)}h`;
-
-    document.querySelector('#time').innerHTML = EU;
-  }
-  
   
     
 
