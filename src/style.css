@@ -84,6 +84,7 @@ body.fixed-nav nav {
 nav ul {
   margin: 0;
   padding: 0;
+  height: 60px;
   list-style: none;
   display: flex;
 }
